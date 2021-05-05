@@ -48,7 +48,7 @@ def scraping():
     options.add_argument('disable-infobars')
     options.add_argument('--disable-extensions')
 
-    browser = webdriver.Chrome(executable_path='C:/Users/suresh/AppData/Local/Programs/Python/Python39/Scripts/chromedriver',options=options)
+    browser = webdriver.Chrome(executable_path='C:/Users/suresh/AppData/Local/Programs/Python/Python39/Scripts/chromedriver.exe',options=options)
     jiomart_url = 'https://www.jiomart.com/'
 
 
